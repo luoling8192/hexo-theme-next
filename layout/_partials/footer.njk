@@ -1,4 +1,4 @@
-{%- if theme.footer.beian.enable %}
+{%- if false %}
   <div class="beian">
     {{- next_url('https://beian.miit.gov.cn', theme.footer.beian.icp + ' ') }}
     {%- if theme.footer.beian.gongan_icon_url %}
@@ -9,6 +9,10 @@
     {%- endif %}
   </div>
 {%- endif %}
+
+<div class="beian">
+  {{- next_url('https://icp.gov.moe/?keyword=20241118', '萌ICP备20241118号') }}
+</div>
 
 {%- if theme.footer.copyright !== false %}
   <div class="copyright">
